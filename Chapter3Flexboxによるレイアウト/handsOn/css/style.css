@@ -1,0 +1,66 @@
+
+
+body { 
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+    color: #333;
+}
+
+#profile-card {
+    width: 600px; 
+    margin: 40px auto; 
+    background-color: #ffffff; 
+    padding: 30px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+}
+
+.profile-image { 
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+h1 {
+text-align: center;
+color: #2c3e50;
+}
+
+h2 {
+border-bottom: 2px solid #3498db;
+padding-bottom: 5px;
+margin-top: 30px;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li a {
+text-decoration: none;
+color: #3498db;
+}
+
+li a:hover {
+text-decoration: underline;
+}
+
+.social-links { 
+    display: flex; /* これで<li>が横に並ぶ */ 
+    justify-content: center; /* アイテムを中央に寄せる */ 
+    gap: 15px; /* アイテム間の隙間を15pxに */ 
+    list-style: none; /* 黒丸を削除 */ 
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-links a {
+display: block; /* paddingを有効にするためブロック要素に */
+padding: 10px 20px;
+background-color: #3498db; /* 青い背景 */
+color: white; /* 白い文字 */
+text-decoration: none;
+border-radius: 5px; /* 少し角を丸める */
+transition: background-color 0.3s; /* 背景色の変化を滑らかに */
+}

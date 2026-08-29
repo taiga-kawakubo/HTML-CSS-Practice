@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+.main-content {
+  flex-grow: 1; /* 残りのスペースをすべて埋める */
+    background-color: lightblue;
+}
+.sidebar {
+  flex-basis: 200px; /* 幅を200pxに固定 */
+    background-color: lightgreen;
+}

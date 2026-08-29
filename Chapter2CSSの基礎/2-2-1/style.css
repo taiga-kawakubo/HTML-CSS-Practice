@@ -1,0 +1,23 @@
+/* 見出しのスタイル*/
+h1 {
+    color:#333;
+    font-size: 28px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+a:hover{
+    color:red;
+}
+
+/*リストの奇数番目の背景色*/
+li:nth-child(odd){
+    background-color: #f0f0f0;
+}
+
